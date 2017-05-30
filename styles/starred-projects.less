@@ -1,0 +1,28 @@
+@import "ui-variables";
+
+.starred-projects {
+  -webkit-user-select: none;
+
+  > ul {
+    padding: 0;
+
+    > li {
+      padding-left: 8px;
+      padding-right: 10px;
+      list-style: none;
+      line-height: 200%;
+      cursor: default;
+
+      &.active {
+        background-color: @overlay-background-color;
+      }
+
+      &.icon:before {
+        color: @ui-site-color-5;
+        height: inherit;
+        line-height: inherit;
+        vertical-align: top;
+      }
+    }
+  }
+}

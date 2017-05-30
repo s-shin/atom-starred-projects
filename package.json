@@ -1,0 +1,27 @@
+{
+  "name": "starred-projects",
+  "main": "./lib/starred-projects",
+  "version": "0.0.0",
+  "description": "Star, view, and quickly open projects.",
+  "keywords": [],
+  "private": true,
+  "repository": "https://github.com/s-shin/atom-starred-projects",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.2.0",
+    "etch": "^0.12.4"
+  },
+  "configSchema": {
+    "starredProjectPath": {
+      "type": "array",
+      "default": [],
+      "description": "List of your starred project paths.",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

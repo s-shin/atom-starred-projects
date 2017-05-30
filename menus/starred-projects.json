@@ -1,0 +1,46 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle star-project",
+        "command": "starred-projects:toggle"
+      }
+    ],
+    ".project-root-header": [
+      {
+        "label": "Star this project",
+        "command": "starred-projects:star"
+      }
+    ],
+    ".starred-projects li": [
+      {
+        "label": "Unstar this project",
+        "command": "starred-projects:unstar"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "starred-projects",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "starred-projects:toggle"
+            },
+            {
+              "label": "Open",
+              "command": "starred-projects:open"
+            },
+            {
+              "label": "Remove",
+              "command": "starred-projects:unstar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
