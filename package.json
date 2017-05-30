@@ -1,7 +1,7 @@
 {
   "name": "starred-projects",
   "main": "./lib/starred-projects",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Star, view, and quickly open projects.",
   "keywords": [],
   "private": true,
